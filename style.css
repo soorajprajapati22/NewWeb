@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 40px;
+    width: 100%;
+   
+    box-shadow: 2px snow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(181, 8, 8) ;
+    
+
+
+    
+}
+.logo{
+    color: rgb(173, 58, 58);
+    text-shadow: 2px rgb(66, 5, 5);
+    font-weight: bolder;
+    color: white;
+}
+.time{
+    color: black;
+    font-size: 15px;
+    color: white;
+
+}
+
+
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 2px solid rgb(102, 154, 202);
+   background-color: rgb(163, 203, 203);
+   display: flex;  
+}
+ul li{
+    display: inline-block;
+    margin-top: 10px;
+
+}
+ ul li a{
+    text-decoration: none;
+    margin-left: 100px;
+   text-align: center;
+
+
+}
+a{
+    color: rgb(21, 3, 3);
+    text-transform: uppercase;
+   
+}
+a:hover{
+    color: aliceblue;
+    background-color: rgb(103, 76, 76);
+    
+}
+.searchbar{
+    margin: 10px 50px 10px 200px;
+}
+.searchbar input{
+    padding: 5px;
+    border: 2px solid black;
+}
+.searchbar button{
+    padding: 5px;
+    background-color: rgb(175, 11, 11);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+.box1{
+    height: 380px;
+    width: 380px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: antiquewhite;
+    
+}
+.boxone{
+    display: flex;
+    flex-direction: column;
+
+}
+.boxone .heading{
+    font-size: large;
+    text-align: center;
+    height: 30px;
+    background-color: rgb(175, 11, 11);
+    color: white;
+    
+   
+}
+.boxone .image{
+    background-image: url("newsimg.jpg.jpg");
+    background-size:cover;
+    height: 200px;
+    width: 100%;
+    
+}
+.boxone .para{
+    font-size: 15px;
+   margin: 10px;
+  
+}
+.boxone button{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(108, 40, 171);
+    background-color: rgb(175, 11, 11);
+    color: white;
+}
+.footer{
+    background-color: rgb(163, 203, 203);
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    color: black;
+    font-weight: bolder;
+}
+.contactForm{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(146, 131, 131);
+    display: flex;
+    justify-content: center;
+}
+input{
+    
+}
